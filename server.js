@@ -15,8 +15,7 @@ mongoose.connect(dbConnection)
 const allowedOrigins = [
     'http://localhost:3000', 
     'https://localhost:3000', 
-    'http://192.168.68.109:3000', 
-    'https://192.168.68.109:3000'
+    'http://192.168.68.109:3000'
 ];
 
 const corsOptions = {origin: function (origin, callback) {
