@@ -21,8 +21,8 @@ submissions and lectures to get ideas for good additions.
 ## Solution
 This project is the backend server of the solution, written in JavaScript using node.js. It is the "middle-man" that handles all communication between the microcontroller and the web application. The program is responsible for retrieving and sending data as a REST API using express. The database used is a non-relational cloud based one, I went with MongoDB. The server can be run both locally and on the cloud, where it is currently deployed with render. Due to the set up on edge and frontend, multiple devices can be configured. 
 
-Edge https://github.com/carolinevannebo/ExamPGR212Edge
-Frontend https://github.com/carolinevannebo/ExamPGR212Frontend
+- Edge https://github.com/carolinevannebo/ExamPGR212Edge
+- Frontend https://github.com/carolinevannebo/ExamPGR212Frontend
 
 ### Components
 - Libraries used for implementation
